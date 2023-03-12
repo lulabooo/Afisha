@@ -31,7 +31,7 @@ public class MovieAfishaTest {
 
     }
 
-   // @Test
+   @Test
     public void shouldShowlast10() {
         MovieAfisha afisha = new MovieAfisha();
         afisha.addNew("1");
