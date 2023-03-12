@@ -24,7 +24,7 @@ public class MovieAfisha {
     }
 
     public String[] showLast() {
-        String[] tmp = new String[10];
+        String[] tmp = new String[3];
         for (int i = 0; i < tmp.length; i++) {
             tmp[i] = movies[movies.length - 1 - i];
         }
