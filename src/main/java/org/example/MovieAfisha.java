@@ -8,9 +8,9 @@ public class MovieAfisha {
         this.limit = 10;
     }
 
-    public MovieAfisha(int limit) {
+  /*  public MovieAfisha(int limit) {
         this.limit = limit;
-    }
+    }*/
 
     public void addNew(String movie) {
         String[] tmp = new String[movies.length + 1];
